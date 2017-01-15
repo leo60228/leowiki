@@ -1,6 +1,6 @@
 {
   "name": "leowiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wikipedia page-viewer",
   "main": "leowiki.js",
   "scripts": {

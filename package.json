@@ -1,0 +1,22 @@
+{
+  "name": "leowiki",
+  "version": "1.0.0",
+  "description": "Wikipedia page-viewer",
+  "main": "leowiki.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo60228/leowiki.git"
+  },
+  "author": "leo60228",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo60228/leowiki/issues"
+  },
+  "homepage": "https://github.com/leo60228/leowiki#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}

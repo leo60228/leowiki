@@ -1,14 +1,14 @@
 var request = require('request');
 
 function getDisambiguationURL(title) {
-    return `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=categories&titles=${encodeURIComponent(title)}&clcategories=Category:All%20disambiguation%20pages&redirects=`
+    return `https://en.wiktionary.org/w/api.php?format=json&action=query&prop=categories&titles=${encodeURIComponent(title)}&clcategories=Category:All%20disambiguation%20pages&redirects=`
 }
 
 function getURL(title, cb) {
     request({uri:getDisambiguationURL(title).toString()}, function(error, response, body) {
         try {
-            var disambiguationURL = `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&titles=${encodeURIComponent(title)}&redirects=`;
-            var normalURL = `https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=${encodeURIComponent(title)}&redirects=`;
+            var disambiguationURL = `https://en.wiktionary.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&titles=${encodeURIComponent(title)}&redirects=`;
+            var normalURL = `https://en.wiktionary.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=${encodeURIComponent(title)}&redirects=`;
 
             if (error) {cb(error, null); return;}
 

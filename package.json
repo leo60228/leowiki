@@ -1,21 +1,14 @@
 {
-  "name": "leowiki",
-  "version": "1.0.1",
-  "description": "Wikipedia page-viewer",
-  "main": "leowiki.js",
+  "name": "leowiktionary",
+  "version": "1.0",
+  "description": "Wiktionary page-viewer",
+  "main": "leowiktionary.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/leo60228/leowiki.git"
-  },
-  "author": "leo60228",
+  "author": "danPixl",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/leo60228/leowiki/issues"
-  },
-  "homepage": "https://github.com/leo60228/leowiki#readme",
+  "homepage": "https://github.com/danpixl/leowiktionary/#readme",
   "dependencies": {
     "request": "^2.79.0"
   }

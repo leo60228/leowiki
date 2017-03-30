@@ -1,12 +1,11 @@
 {
   "name": "leowiki",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Wikipedia page-viewer",
   "main": "leowiki.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "require-self",
-    "prepublish": "require-self"
+    "prepare": "require-self"
   },
   "repository": {
     "type": "git",
